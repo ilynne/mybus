@@ -1,0 +1,33 @@
+---
+---
+
+@import "minima";
+
+.stop-info-container {
+  text-align: center;
+  h1 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+.arrival-info-container {
+  th, td {
+    padding: 0.25em;
+    text-align: center;
+    border: 0;
+  }
+  th {
+    font-size: 0.8em;
+  }
+  p {
+    margin: 0;
+  }
+  .route-name, .route-estimated-minutes {
+    font-size: 1.75em;
+  }
+  .route-arrival-detail {
+    font-size: 0.9em;
+  }
+}
