@@ -30,4 +30,14 @@
   .route-arrival-detail {
     font-size: 0.9em;
   }
+  .late {
+    color: red;
+  }
+  .on-time {
+    color: green;
+  }
+  .early {
+    color: orange;
+    font-weight: bold;
+  }
 }
